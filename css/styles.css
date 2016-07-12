@@ -1,0 +1,116 @@
+/*Start with mobile version first!!!!*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+li {
+  display: inline-block;;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.bg {
+  background-color: black;
+}
+
+.navbar-wrap {
+  display: block;
+  background-color: white;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: lightgrey;
+  display: block;
+}
+
+.navbar-logo {
+  padding-top: 1px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.navbar-elements {
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.big-square {
+  height: 100%;
+  width: 97%;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: block;
+}
+.big-square-title {
+  color: white;
+  position: relative;
+  margin-left: 5px;
+}
+
+.big-square-title .small {
+  color: white;
+  position: relative;
+  margin-left: 5px;
+  margin-top: -20px;
+  font-size: 15px;
+}
+
+.featured-content {
+  background-color: white;
+  margin-left: 10px;
+  width: 94%;
+  margin-top: 0;
+}
+
+.content-wrap{
+  display: block;
+  margin: 10px;
+  width: 94%;
+}
+
+.content1 {
+  display: block;
+  background-color: white;
+}
+
+.content1-text1 {
+  font-size: 15px;
+  margin: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.content1-text2 {
+  font-size: 15px;
+  margin: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.content2 {
+  display: block;
+  background-color: white;
+}
+
+.content2-text1 {
+  font-size: 15px;
+  margin: 10px;
+  padding-top: 10px;
+  font-style: italic;
+  margin-top: 40px;
+}
